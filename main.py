@@ -26,6 +26,8 @@ basket_img = pygame.transform.scale(basket_img, (BASKET_SIZE, BASKET_SIZE))
 cornish_img = pygame.image.load('images/Cornish.png')
 cornish_img = pygame.transform.scale(cornish_img, (FALLING_ITEM_SIZE, FALLING_ITEM_SIZE))
 
+pygame.display.set_icon(cornish_img)
+
 font = pygame.font.SysFont(None, 36)
 button_font = pygame.font.SysFont(None, 28)
 
